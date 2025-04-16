@@ -2,11 +2,46 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
 		<title>Tailwind CSS Mini-Projects</title>
 	</head>
 	<body>
-		<h1>Tailwind CSS Mini-Projects</h1>
-		<a href="./email-subscribe/index.html">Email Subscribe Card</a>
+		<div class="flex flex-col items-center h-screen">
+			<h1 class="text-zinc-800">Tailwind CSS Mini-Projects</h1>
+			<div class="flex flex-col p-6 w-full">
+				<ul>
+					<li class="mb-5">
+						<a
+							class="hover:text-blue-800 hover:underline"
+							href="./email-subscribe/index.html"
+							>Email Subscribe Card</a
+						>
+					</li>
+					<li class="mb-5">
+						<a
+							class="hover:text-blue-800 hover:underline"
+							href="./pricing-cards/index.html"
+							>Pricing Cards</a
+						>
+					</li>
+					<li class="mb-5">
+						<a
+							class="hover:text-blue-800 hover:underline"
+							href="./product-modal/index.html"
+							>Product Modal</a
+						>
+					</li>
+					<li class="mb-5">
+						<a
+							class="hover:text-blue-800 hover:underline"
+							href="./image-gallery/index.html"
+							>Image Gallery</a
+						>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</body>
 </html>
